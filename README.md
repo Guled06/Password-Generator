@@ -12,13 +12,13 @@ Hello and welcome. This application is a password generating app. It will genera
 
 <h2>The user can select all four types of characters listed below, but the user must select at least one of the following characters to have his/her password generated:</h2>
 
-1) Lowercase characters (a, b, c, d)
+1) Lowercase characters (ex; a, b, c, d...,)
 
-2) Uppercase characters (A, B, C, D)
+2) Uppercase characters (ex; A, B, C, D...,)
 
-3) Numeric characters (1, 2, 3, 4)
+3) Numeric characters (ex; 1, 2, 3, 4...,)
 
-4) Special characters (!, @, $, *)
+4) Special characters (ex; !, @, $, *...,)
 <br>
 <h1>THE COMPUTER'S PURPOSE</h1>
 
