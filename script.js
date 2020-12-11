@@ -16,7 +16,7 @@ function generatePassword () {
   passwordFresh = parseInt(passwordFresh);
 
   if (passwordFresh < 8) {
-    alert ("Password must have more than 7 characters:");
+    alert ("Password must have more than 8 characters:");
     return "";
   }
 
@@ -31,7 +31,7 @@ function generatePassword () {
 
   var numbers = confirm("Would you like numbers (ex; 1, 2, 3, 4, 5) to be included in your password?");
 
-  var specialCharacters = confirm("Would you like special characters (ex; !, #, &, $, *) to be inlcuded in your password?")
+  var specialCharacters = confirm("Would you like special characters (ex; !, #, &, $, *) to be inlcuded in your password?");
 
   var passwordOptions = [];
 
