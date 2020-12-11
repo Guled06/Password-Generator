@@ -1,29 +1,31 @@
 # Password-Generator
 
-This is was our third homework assigned to us in our second week of the UCSD Triology Coding Program. In this homework, we were tasked to create an application that will allow the user to generate a random password based on the criteria they have chosen to create their new password. This app was design to run the browser using Index.html file, a style.css file and a script.js file. 
+<h1>DESCRIPTION:</h1>
 
-In the script.js, I created a variable and named it "AlphaBet". I gave this variable a string containing the alphabets in lower case from a-z. 
+Hello and welcome. This application is a password generating app. It will generate a random password based on selected criteria. The application will run in the browser and feature dynamically updated HTML and CSS, powered by a JavaScript code.
 
-I also created a variable called "letteRs" and gave this variable a string containing the alphabets in upper case from A-Z. 
+<br>
+<h1>THE USER'S PURPOSE:</h1>
 
-I created a variable called "digiTs" and gave this variable a string containing a group of numbers from 0 to 9. 
+The user will be prompted to choose from the following password criteria:
 
-After creating this three variables, I created a function called 'generatePassword'. Within this function, I created a variable called "newPasswordArray" and gave this variable an empty array. This is where the password that will be generated based on what the user will select will be stored.
+Length (must be between 8 and 128 characters);
 
-Afterwards, I created a variable called "passwordFresh" and prompted this variable to ask the user a question "Please enter a password length." 
+The character types the user can choose from will include the follow (examples);
 
-I set the length of the password between 8 characters to 128 characters. The user cannot choose anything below 8 or above 128, otherwise the user will be prompted again to choose from 8 to 128. 
+Lowercase characters (a, b, c, d)
 
-After the user chooses between 8 and 128, he/she will be asked a set of questions regarding what he/she would like his/her password to contain. This questions will tied to the the characters I have set with the variables (lower case alphabets, upper case alphabets, numbers and special characters).
+Uppercase characters (A, B, C, D)
 
-If the user selected lower case alphabets to be included in his/her password, then a random number from 0 to 9 will be selected and pushed into the array that will hold all password. The same will be repeated for the other questions (upper case alphabets, numbers and special characters) depending on what the user selected. 
+Numeric characters (1, 2, 3, 4)
 
-I would often use console.log to see if the properties that I put in place were being console-logged correctly. For example, when if the user selected "ok" to having strictly numbers in his password, the console log should show the length of the password that was chosen and the string within that password and in this case it will show a string of numbers. 
+Special characters (!, @, $, *)
 
-If the user selected only lower case letters to be included in his/her password then the console.log should show that the strings containing the user's password to be strictly lower case alphabet letters. 
+The application will record and safe the user's selected characters he/she desired. When the user answers the series of  prompts, prompting him/her to select or not selecting their desired input, the computer will generate a password length the user chose and that password will be containing the user's desired characters.
 
-Once the selections have been randomly selected and pushed into the array, then the array will be 'join' so the password that was randomly selected for the user will be generated without any space of any kind. 
+<h1>END RESULT:</h1>
 
-Once the user selected the desired options in all of the questions that were prompted, the computer then will randomly generate a password of the desired length chosen by the user and then the password will be displayed in the appropriate text box. 
+Once the password has been randomly generated to contain the desired characters that were selected by the user, the password will appear in the text-box where the user can copy and paste to wherever he/she desires. Below is a screen-shot of the password generating application, displaying a password consisting of 15 characters that were randomly put together by the computer. The characters consist of lowercase letters, uppercase letters, numbers and special characters.
 
+<br>
 <img src="images/picture4.png" alt="">
