@@ -10,7 +10,7 @@ Hello and welcome. This application is a password generating app. It will genera
 
 1) The length of the desired password must be at least 8 characters and no more than 128 characters long.
 
-<h2>The character types the user can choose will include the following (examples):</h2>
+<h2>The user can select all four types of characters listed below, but the user must select at least one of the following characters to have his/her password generated:</h2>
 
 1) Lowercase characters (a, b, c, d)
 
