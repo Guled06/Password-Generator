@@ -18,4 +18,17 @@ After the user chooses between 8 and 128, he/she will be asked a set of question
 
 If the user selected lower case alphabets to be included in his/her password, then a random number from 0 to 9 will be selected and pushed into the array that will hold all password. The same will be repeated for the other questions (upper case alphabets, numbers and special characters) depending on what the user selected. 
 
+I would often use console.log to see if the properties that I put in place were being console-logged correctly. For example, when if the user selected "ok" to having strictly numbers in his password, the console log should show the length of the password that was chosen and the string within that password and in this case it will show a string of numbers. 
+
+<img src="images/pic1.png" alt="">
+
+
+<br>
+
+If the user selected only lower case letters to be included in his/her password then the console.log should show that the strings containing the user's password to be strictly lower case alphabet letters. 
+
 Once the selections have been randomly selected and pushed into the array, then the array will be 'join' so the password that was randomly selected for the user will be generated without any space of any kind. 
+
+Once the user selected the desired options in all of the questions that were prompted, the computer then will randomly generate a password of the desired length chosen by the user and then the password will be displayed in the appropriate text box. 
+
+<img src="images/picture4.png" alt="">

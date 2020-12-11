@@ -12,7 +12,7 @@ var specialThings = "!$@#%^&*(_)+=.[/?]}\|{<,:;>"
 function generatePassword () {
   var newPasswordArray = [];
 
-  var passwordFresh = prompt("Please enter a password length");
+  var passwordFresh = prompt("Please enter a password length, thank you.");
   passwordFresh = parseInt(passwordFresh);
 
   if (passwordFresh < 8) {
@@ -25,13 +25,13 @@ function generatePassword () {
     return "";
   }
 
-  var lowerCase = confirm("Would you like lower case letters to be included in your password?");
+  var lowerCase = confirm("Would you like lower case letters (ex; a, b, c, d) to be included in your password?");
 
-  var upperCase = confirm("Would you like upper case letters to be included in your password?");
+  var upperCase = confirm("Would you like upper case letters (ex; A, B, C, D) to be included in your password?");
 
-  var numbers = confirm("Would you like numbers to be included in your password?");
+  var numbers = confirm("Would you like numbers (ex; 1, 2, 3, 4, 5) to be included in your password?");
 
-  var specialCharacters = confirm("Would you like special characters to be inlcuded in your password?")
+  var specialCharacters = confirm("Would you like special characters (ex; !, #, &, $, *) to be inlcuded in your password?")
 
   var passwordOptions = [];
 
