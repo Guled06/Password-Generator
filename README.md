@@ -8,19 +8,25 @@ Hello and welcome. This application is a password generating app. It will genera
 <br>
 <h1>THE USER'S PURPOSE:</h1>
 
-The user will be prompted to choose from the following password criteria:
+<h2>The user of this application will be prompted to choose from the following password criteria:</h2>
 
-Length (must be between 8 and 128 characters);
+1) The length of the desired password must be at least 8 characters and no more than 128 characters long.
 
-The character types the user can choose from will include the follow (examples);
+<h2>The character types the user can choose will include the following (examples):</h2>
 
-Lowercase characters (a, b, c, d)
+1) Lowercase characters (a, b, c, d)
 
-Uppercase characters (A, B, C, D)
+2) Uppercase characters (A, B, C, D)
 
-Numeric characters (1, 2, 3, 4)
+3) Numeric characters (1, 2, 3, 4)
 
-Special characters (!, @, $, *)
+4)) Special characters (!, @, $, *)
+
+<br>
+<h1>THE COMPUTER'S PURPOSE</h1>
+
+Once the user completes his part of the task, the computer will now generate a new password. The computer will first take the length of the password chosen by the user. Afterwards, the computer will record the desired characters the user selected and push those characters into a single location to match the length of the password. If the user selected the length of his password to be 21 characters long for instance and then selected his password to contain lowercase characters, numeric characters and special characters (notice the user did not select uppercase characters), then the computer will generate a password that is 21 characters long consisting of only lowercase characters, numeric characters and special characters. This three types of characters that were chosen will then be randomly placed together in random order and presented to the user as his/her new password. 
+
 
 The application will record and safe the user's selected characters he/she desired. When the user answers the series of  prompts, prompting him/her to select or not selecting their desired input, the computer will generate a password length the user chose and that password will be containing the user's desired characters.
 
