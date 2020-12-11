@@ -20,11 +20,6 @@ If the user selected lower case alphabets to be included in his/her password, th
 
 I would often use console.log to see if the properties that I put in place were being console-logged correctly. For example, when if the user selected "ok" to having strictly numbers in his password, the console log should show the length of the password that was chosen and the string within that password and in this case it will show a string of numbers. 
 
-<img src="images/pic1.png" alt="">
-
-
-<br>
-
 If the user selected only lower case letters to be included in his/her password then the console.log should show that the strings containing the user's password to be strictly lower case alphabet letters. 
 
 Once the selections have been randomly selected and pushed into the array, then the array will be 'join' so the password that was randomly selected for the user will be generated without any space of any kind. 
