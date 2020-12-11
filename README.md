@@ -31,4 +31,6 @@ The application will record and safe the user's selected characters he/she desir
 
 Once the password has been randomly generated to contain the desired characters that were selected by the user, the password will appear in the text-box where the user can copy and paste to wherever he/she desires. Below is a screen-shot of the password generating application, displaying a password consisting of 15 characters that were randomly put together by the computer. The characters consist of lowercase letters, uppercase letters, numbers and special characters.
 <br>
+<br>
+<br>
 <img src="images/picture4.png" alt="">
